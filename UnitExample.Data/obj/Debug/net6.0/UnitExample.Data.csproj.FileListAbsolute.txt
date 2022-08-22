@@ -1,0 +1,14 @@
+E:\EXAMEN CORE\UnitExample\UnitExample.Data\bin\Debug\net6.0\UnitExample.Data.deps.json
+E:\EXAMEN CORE\UnitExample\UnitExample.Data\bin\Debug\net6.0\UnitExample.Data.runtimeconfig.json
+E:\EXAMEN CORE\UnitExample\UnitExample.Data\bin\Debug\net6.0\UnitExample.Data.dll
+E:\EXAMEN CORE\UnitExample\UnitExample.Data\bin\Debug\net6.0\UnitExample.Data.pdb
+E:\EXAMEN CORE\UnitExample\UnitExample.Data\obj\Debug\net6.0\UnitExample.Data.csproj.AssemblyReference.cache
+E:\EXAMEN CORE\UnitExample\UnitExample.Data\obj\Debug\net6.0\UnitExample.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\EXAMEN CORE\UnitExample\UnitExample.Data\obj\Debug\net6.0\UnitExample.Data.AssemblyInfoInputs.cache
+E:\EXAMEN CORE\UnitExample\UnitExample.Data\obj\Debug\net6.0\UnitExample.Data.AssemblyInfo.cs
+E:\EXAMEN CORE\UnitExample\UnitExample.Data\obj\Debug\net6.0\UnitExample.Data.csproj.CoreCompileInputs.cache
+E:\EXAMEN CORE\UnitExample\UnitExample.Data\obj\Debug\net6.0\UnitExample.Data.dll
+E:\EXAMEN CORE\UnitExample\UnitExample.Data\obj\Debug\net6.0\refint\UnitExample.Data.dll
+E:\EXAMEN CORE\UnitExample\UnitExample.Data\obj\Debug\net6.0\UnitExample.Data.pdb
+E:\EXAMEN CORE\UnitExample\UnitExample.Data\obj\Debug\net6.0\UnitExample.Data.genruntimeconfig.cache
+E:\EXAMEN CORE\UnitExample\UnitExample.Data\obj\Debug\net6.0\ref\UnitExample.Data.dll

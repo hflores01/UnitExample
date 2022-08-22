@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bgp/KL46RryQgdmbbflgELo9jZu8vj1uKEnPQzo2Qt8=",
+  "Source": "UnitExample.WebApi",
+  "BasePath": "_content/UnitExample.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

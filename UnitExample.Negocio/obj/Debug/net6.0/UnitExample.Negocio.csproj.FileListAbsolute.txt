@@ -1,0 +1,15 @@
+E:\EXAMEN CORE\UnitExample\UnitExample.Negocio\bin\Debug\net6.0\UnitExample.Negocio.deps.json
+E:\EXAMEN CORE\UnitExample\UnitExample.Negocio\bin\Debug\net6.0\UnitExample.Negocio.dll
+E:\EXAMEN CORE\UnitExample\UnitExample.Negocio\bin\Debug\net6.0\UnitExample.Negocio.pdb
+E:\EXAMEN CORE\UnitExample\UnitExample.Negocio\bin\Debug\net6.0\UnitExample.Data.dll
+E:\EXAMEN CORE\UnitExample\UnitExample.Negocio\bin\Debug\net6.0\UnitExample.Data.pdb
+E:\EXAMEN CORE\UnitExample\UnitExample.Negocio\obj\Debug\net6.0\UnitExample.Negocio.csproj.AssemblyReference.cache
+E:\EXAMEN CORE\UnitExample\UnitExample.Negocio\obj\Debug\net6.0\UnitExample.Negocio.GeneratedMSBuildEditorConfig.editorconfig
+E:\EXAMEN CORE\UnitExample\UnitExample.Negocio\obj\Debug\net6.0\UnitExample.Negocio.AssemblyInfoInputs.cache
+E:\EXAMEN CORE\UnitExample\UnitExample.Negocio\obj\Debug\net6.0\UnitExample.Negocio.AssemblyInfo.cs
+E:\EXAMEN CORE\UnitExample\UnitExample.Negocio\obj\Debug\net6.0\UnitExample.Negocio.csproj.CoreCompileInputs.cache
+E:\EXAMEN CORE\UnitExample\UnitExample.Negocio\obj\Debug\net6.0\UnitExample.Negocio.csproj.CopyComplete
+E:\EXAMEN CORE\UnitExample\UnitExample.Negocio\obj\Debug\net6.0\UnitExample.Negocio.dll
+E:\EXAMEN CORE\UnitExample\UnitExample.Negocio\obj\Debug\net6.0\refint\UnitExample.Negocio.dll
+E:\EXAMEN CORE\UnitExample\UnitExample.Negocio\obj\Debug\net6.0\UnitExample.Negocio.pdb
+E:\EXAMEN CORE\UnitExample\UnitExample.Negocio\obj\Debug\net6.0\ref\UnitExample.Negocio.dll
