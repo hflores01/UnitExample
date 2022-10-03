@@ -1,30 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "E:\\EXAMEN CORE\\UnitExample\\UnitExample.Data\\UnitExample.Data.csproj": {}
+    "D:\\HECTOR\\me\\UnitExample\\UnitExample\\UnitExample.Data\\UnitExample.Data.csproj": {}
   },
   "projects": {
-    "E:\\EXAMEN CORE\\UnitExample\\UnitExample.Data\\UnitExample.Data.csproj": {
+    "D:\\HECTOR\\me\\UnitExample\\UnitExample\\UnitExample.Data\\UnitExample.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\EXAMEN CORE\\UnitExample\\UnitExample.Data\\UnitExample.Data.csproj",
+        "projectUniqueName": "D:\\HECTOR\\me\\UnitExample\\UnitExample\\UnitExample.Data\\UnitExample.Data.csproj",
         "projectName": "UnitExample.Data",
-        "projectPath": "E:\\EXAMEN CORE\\UnitExample\\UnitExample.Data\\UnitExample.Data.csproj",
-        "packagesPath": "C:\\Users\\halfl\\.nuget\\packages\\",
-        "outputPath": "E:\\EXAMEN CORE\\UnitExample\\UnitExample.Data\\obj\\",
+        "projectPath": "D:\\HECTOR\\me\\UnitExample\\UnitExample\\UnitExample.Data\\UnitExample.Data.csproj",
+        "packagesPath": "C:\\Users\\hflores\\.nuget\\packages\\",
+        "outputPath": "D:\\HECTOR\\me\\UnitExample\\UnitExample\\UnitExample.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Programacion\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\halfl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hflores\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "https://www.nuget.org/api/v2/": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -63,7 +65,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -72,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
