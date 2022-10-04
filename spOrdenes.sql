@@ -9,7 +9,7 @@ BEGIN
 	END
 
 	SELECT 
-		od.id,
+		od.Id,
 		od.Fecha,
 		od.CustomerId,
 		ol.ProductId,
