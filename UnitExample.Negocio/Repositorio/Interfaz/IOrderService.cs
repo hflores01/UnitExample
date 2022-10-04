@@ -11,5 +11,6 @@ namespace UnitExample.Negocio.Repositorio.Interfaz
     {
         Task<OrderModel> GetOrderByIdAsync(int id);
         Task<OrderModel> AddOrderAsync(OrderModel newOrder);
+        Task<List<OrderAgregadoModel>> GetV_OrdenesAsync(ReporteAgregadoModel parametros);
     }
 }

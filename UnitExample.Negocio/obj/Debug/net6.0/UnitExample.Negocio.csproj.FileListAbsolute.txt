@@ -13,3 +13,18 @@ E:\EXAMEN CORE\UnitExample\UnitExample.Negocio\obj\Debug\net6.0\UnitExample.Nego
 E:\EXAMEN CORE\UnitExample\UnitExample.Negocio\obj\Debug\net6.0\refint\UnitExample.Negocio.dll
 E:\EXAMEN CORE\UnitExample\UnitExample.Negocio\obj\Debug\net6.0\UnitExample.Negocio.pdb
 E:\EXAMEN CORE\UnitExample\UnitExample.Negocio\obj\Debug\net6.0\ref\UnitExample.Negocio.dll
+E:\SOFTWARE\GitHub\UnitExample\UnitExample\UnitExample.Negocio\bin\Debug\net6.0\UnitExample.Negocio.deps.json
+E:\SOFTWARE\GitHub\UnitExample\UnitExample\UnitExample.Negocio\bin\Debug\net6.0\UnitExample.Negocio.dll
+E:\SOFTWARE\GitHub\UnitExample\UnitExample\UnitExample.Negocio\bin\Debug\net6.0\UnitExample.Negocio.pdb
+E:\SOFTWARE\GitHub\UnitExample\UnitExample\UnitExample.Negocio\bin\Debug\net6.0\UnitExample.Data.dll
+E:\SOFTWARE\GitHub\UnitExample\UnitExample\UnitExample.Negocio\bin\Debug\net6.0\UnitExample.Data.pdb
+E:\SOFTWARE\GitHub\UnitExample\UnitExample\UnitExample.Negocio\obj\Debug\net6.0\UnitExample.Negocio.csproj.AssemblyReference.cache
+E:\SOFTWARE\GitHub\UnitExample\UnitExample\UnitExample.Negocio\obj\Debug\net6.0\UnitExample.Negocio.GeneratedMSBuildEditorConfig.editorconfig
+E:\SOFTWARE\GitHub\UnitExample\UnitExample\UnitExample.Negocio\obj\Debug\net6.0\UnitExample.Negocio.AssemblyInfoInputs.cache
+E:\SOFTWARE\GitHub\UnitExample\UnitExample\UnitExample.Negocio\obj\Debug\net6.0\UnitExample.Negocio.AssemblyInfo.cs
+E:\SOFTWARE\GitHub\UnitExample\UnitExample\UnitExample.Negocio\obj\Debug\net6.0\UnitExample.Negocio.csproj.CoreCompileInputs.cache
+E:\SOFTWARE\GitHub\UnitExample\UnitExample\UnitExample.Negocio\obj\Debug\net6.0\UnitExample.Negocio.csproj.CopyComplete
+E:\SOFTWARE\GitHub\UnitExample\UnitExample\UnitExample.Negocio\obj\Debug\net6.0\UnitExample.Negocio.dll
+E:\SOFTWARE\GitHub\UnitExample\UnitExample\UnitExample.Negocio\obj\Debug\net6.0\refint\UnitExample.Negocio.dll
+E:\SOFTWARE\GitHub\UnitExample\UnitExample\UnitExample.Negocio\obj\Debug\net6.0\UnitExample.Negocio.pdb
+E:\SOFTWARE\GitHub\UnitExample\UnitExample\UnitExample.Negocio\obj\Debug\net6.0\ref\UnitExample.Negocio.dll

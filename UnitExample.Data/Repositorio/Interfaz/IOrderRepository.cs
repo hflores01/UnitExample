@@ -13,6 +13,6 @@ namespace UnitExample.Data.Repositorio.Interfaz
 
         Task<List<Order>> GetAllOrdersAsync();
 
-
+        Task<List<OrderAgregado>> GetV_OrdenesAsync(ReporteAgregado parametros);
     }
 }

@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 using UnitExample.Data.Entidad;
 using UnitExample.Data.Repositorio.Interfaz;
 
@@ -30,6 +31,32 @@ namespace UnitExample.Data.Repositorio.Implementacion
         public async Task<List<Order>> GetAllOrdersAsync()
         {
             return await GetAll().ToListAsync();
+        }
+
+        public async Task<List<OrderAgregado>> GetV_OrdenesAsync(ReporteAgregado parametros)
+        {
+            List<OrderAgregado> tramites = new List<OrderAgregado>();
+            try
+            {
+                using (var db = _repositoryPatternContext)
+                {
+                    var fromFecha = new SqlParameter("@FromDate", parametros.fechaRegistroInicial.ToString("yyyyMMdd"));
+                    var toFecha = new SqlParameter("@ToDate", parametros.fechaRegistroFinal.ToString("yyyyMMdd"));
+
+                    tramites = await db.OrderAgregado.FromSqlRaw("exec spOrdenes @FromDate, @ToDate", fromFecha, toFecha).ToListAsync();
+                }
+            }
+            catch (Exception ex)
+            {
+                //ErrorEntity err = new ErrorEntity();
+                //err.Excepcion = ex;
+                //err.Rutina = "GetV_OrdenesAsync";
+                //err.TipoCapturado = "UnitExample.Data";
+                //ErrorEntity.EscribirError(err);
+                throw;
+            }
+
+            return tramites;
         }
 
     }

@@ -82,6 +82,42 @@ namespace UnitExample.Negocio.Repositorio.Implementacion
             return newOrder;
         }
 
+        public async Task<List<OrderAgregadoModel>> GetV_OrdenesAsync(ReporteAgregadoModel parametros)
+        {
+            List<OrderAgregadoModel> tramitesModel = new List<OrderAgregadoModel>();
+            try
+            {
+                ReporteAgregado param = new ReporteAgregado();
+                param.fechaRegistroInicial = parametros.fechaRegistroInicial;
+                param.fechaRegistroFinal = parametros.fechaRegistroFinal;
+
+                foreach (OrderAgregado item in await _orderRepository.GetV_OrdenesAsync(param))
+                {
+                    OrderAgregadoModel model = new OrderAgregadoModel();
+                    model.Id = item.Id;
+                    model.LastName = item.LastName.Trim();
+                    model.Name = item.Name.Trim();
+                    model.FirstName = item.FirstName.Trim();
+                    model.CustomerId = item.CustomerId;
+                    model.ProductId = item.ProductId;
+                    model.Description = item.Description.Trim();
+                    model.Fecha = item.Fecha;
+                    model.Price = item.Price;
+
+                    tramitesModel.Add(model);
+                }
+            }
+            catch (Exception ex)
+            {
+                //ErrorEntity err = new ErrorEntity();
+                //err.Excepcion = ex;
+                //err.Rutina = "GetV_OrdenesAsync";
+                //err.TipoCapturado = "UnitExample.Negocio";
+                //ErrorEntity.EscribirError(err);
+                throw;
+            }
+            return tramitesModel;
+        }
     }
 
 }

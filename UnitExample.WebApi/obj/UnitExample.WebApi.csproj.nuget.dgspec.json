@@ -181,6 +181,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "ReportViewerCore.NETCore": {
+              "target": "Package",
+              "version": "[15.1.17, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"

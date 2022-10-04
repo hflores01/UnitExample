@@ -29,8 +29,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
-app.UseHttpsRedirection();
+AppDomain.CurrentDomain.SetData("ContentRootPath", app.Environment.ContentRootPath);
+AppDomain.CurrentDomain.SetData("WebRootPath", app.Environment.WebRootPath);
+//app.UseHttpsRedirection();
 
 app.UseAuthorization();
 

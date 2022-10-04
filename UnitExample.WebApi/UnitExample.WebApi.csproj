@@ -7,12 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="ReportViewerCore.NETCore" Version="15.1.17" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\UnitExample.Data\UnitExample.Data.csproj" />
     <ProjectReference Include="..\UnitExample.Negocio\UnitExample.Negocio.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Reportes\" />
   </ItemGroup>
 
 </Project>

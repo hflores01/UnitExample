@@ -21,6 +21,7 @@ namespace UnitExample.Data.Entidad
         public virtual DbSet<Product> Product { get; set; } = null!;
         public virtual DbSet<Order> Order { get; set; } = null!;
         public virtual DbSet<OrderDetails> OrderDetails { get; set; } = null!;
+        public virtual DbSet<OrderAgregado> OrderAgregado { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -52,6 +53,11 @@ namespace UnitExample.Data.Entidad
                 entity.Property(e => e.Price).HasColumnType("decimal(10, 2)");
             });
 
+            modelBuilder.Entity<OrderAgregado>(entity =>
+            {
+                entity.HasNoKey();
+                entity.Property(e => e.Price).HasColumnType("decimal(10, 2)");
+            });
             OnModelCreatingPartial(modelBuilder);
         }
 
